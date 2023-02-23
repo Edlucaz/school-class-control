@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cabecalho{
+    background-color: royalblue;
+    display: inline-block;
+    width: cal(100% / 4);
+    height: 100px;
+    text-align: center;
+    font-size: 34px;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+#botaoum{
+    margin: 50px;
+    color: black;
+    text-decoration: none;
+}
+
+#botaodois{
+    margin: 50px;
+    color: black;
+    text-decoration: none;
+}
+
+#botaotres{
+    margin: 50px;
+    color: black;
+    text-decoration: none;
+}
+
+#botaoquatro{
+    margin: 50px;
+    color: black;
+    text-decoration: none;
+}
+.pag_inicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
