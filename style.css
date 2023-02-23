@@ -13,7 +13,7 @@ body{
     justify-content: center;
 }
 
-.cabecalho{
+/*.cabecalho{
     background-color: royalblue;
     display: inline-block;
     width: cal(100% / 4);
@@ -51,3 +51,30 @@ body{
     flex-direction: column;
     align-items: center;
 }
+*/
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px; /* altura do cabeçalho */
+  }
+  
+  .cabecalho ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .cabecalho li {
+    margin: 0 20px; /* espaçamento entre os itens do menu */
+  }
+  
+  .cabecalho a {
+    text-decoration: none;
+    color: #000; /* cor do texto */
+    font-size: 18px; /* tamanho do texto */
+    font-weight: bold;
+  }
